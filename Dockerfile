@@ -14,4 +14,4 @@ EXPOSE 8000
 RUN chmod +x start.sh
 
 # Chạy script start.sh
-CMD ["./start.sh"]
+CMD ["sh start.sh"]
