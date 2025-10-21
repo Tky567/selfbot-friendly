@@ -1,5 +1,5 @@
 {
-    "Token": "USER-TOKEN-HERE",
-    "Guild": "SERVER-ID-HERE",
-    "Channel": "CHANNEL-ID-HERE"
+    "Token": "USER_TOKEN_HERE",
+    "Guild": "SERVER_ID_HERE",
+    "Channel": "CHANNEL_ID_HERE"
 }
