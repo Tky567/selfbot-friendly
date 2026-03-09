@@ -36,7 +36,6 @@ async function safeJoinVC(client, config) {
         let channelId = config.Channel;
         let voiceChannel = guild?.channels.cache.get(channelId);
 
-        // Check main channel, if unavailable try backup
         if (!voiceChannel || !canJoin(voiceChannel, client)) {
             log(`Main channel ${channelId} unavailable, trying backup channel...`, "WARN");
             channelId = config.BackupChannel;
@@ -141,3 +140,4 @@ function log(msg, type = "INFO") {
     console.log(`[${time}] [${type}] ${msg}`);
 }
 client.login(config.Token);
+
