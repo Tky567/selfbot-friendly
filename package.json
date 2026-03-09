@@ -9,14 +9,14 @@
   "author": "tky567",
   "license": "MIT",
   "dependencies": {
-    "discord.js-selfbot-v13": "https://github.com/aiko-chan-ai/discord.js-selfbot-v13.git",
     "@discordjs/voice": "^0.18.0",
-    "opusscript": "^0.0.8",
+    "discord.js-selfbot-v13": "https://github.com/aiko-chan-ai/discord.js-selfbot-v13.git",
     "ffmpeg-static": "^5.0.2",
+    "opusscript": "^0.0.8",
     "prism-media": "^1.3.4"
   },
   "optionalDependencies": {
-    "@discordjs/opus": "^0.8.0"
+    "@discordjs/opus": "^0.10.0"
   },
   "engines": {
     "node": ">=16.6.0",
